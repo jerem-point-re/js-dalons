@@ -53,14 +53,15 @@ body {
     display: inline-block;
     margin: 10px;
     padding: 10px;
+    position: relative;
     text-align: center;
     transition: 0.3s;
     width: 18rem;
 
-    >p:first-child {
-        background-color: pink;
-        position: relative;
-        left: 16px;
+    >p >ion-icon {
+        left: .5em;
+        position: absolute;
+        top: .5em;
     }
 
     >img {
